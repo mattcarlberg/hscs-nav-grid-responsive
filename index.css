@@ -1,0 +1,33 @@
+body{
+  background: lightgray;
+}
+
+nav{
+  background-color: black;
+  font-size: 1.2em;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul{
+  list-style-type: none;
+  display: block;
+  justify-content: center; 
+}
+
+nav li{
+  padding: 20px;
+}
+
+@media (min-width: 768px){
+  nav ul{
+    display: flex;
+  }
+}
+
+
+
+
